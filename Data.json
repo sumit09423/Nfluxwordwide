@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?",
+    "content": "This is the content for the first accordion item. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?"
+  },
+  {
+    "id": "2",
+    "title": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?",
+    "content": "This is the content for the second accordion item. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?"
+  },
+  {
+    "id": "3",
+    "title": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?",
+    "content": "This is the content for the third accordion item. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?"
+  },
+  {
+    "id": "4",
+    "title": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?",
+    "content": "This is the content for the third accordion item. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?"
+  },
+  {
+    "id": "5",
+    "title": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?",
+    "content": "This is the content for the third accordion item. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?"
+  },
+  {
+    "id": "6",
+    "title": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?",
+    "content": "This is the content for the third accordion item. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum pariatur distinctio, placeat veniam quos adipisci?"
+  }
+]

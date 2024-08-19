@@ -1,0 +1,60 @@
+.accordion-item {
+  background-color: black !important;
+  color: white !important;
+  border-bottom: 1px solid #ffffff3d !important;
+  padding: 12px 0px;
+}
+
+.accordion-button {
+  background: black !important;
+  color: white !important ;
+  padding-left: 5% !important;
+}
+
+.accordion-collapse .collapse .show {
+  background: black;
+  color: white !important;
+}
+
+.accordion-header {
+  outline: unset;
+}
+
+.accordion-body {
+  color: #fff;
+  background-color: black !important;
+}
+
+.border-cust {
+  border-bottom: 1px solid #ffffff3d;
+}
+
+/* Custom styles for the accordion button */
+.custom-accordion-button {
+  padding-left: 1.5rem; /* Adjust left padding to make room for the arrow */
+  padding-right: 0.75rem; /* Adjust right padding to keep the text aligned */
+  text-align: left; /* Align text to the left */
+}
+
+/* Override the default arrow icon position */
+.custom-accordion-button::after {
+  position: absolute;
+  left: 1rem; /* Position the arrow on the left side */
+  right: auto; /* Disable right positioning */
+  transform: rotate(-90deg); /* Rotate the arrow for the collapsed state */
+}
+
+/* Rotate the arrow back when the accordion is expanded */
+.custom-accordion-button:not(.collapsed)::after {
+  transform: rotate(0deg);
+}
+
+@media (max-width: 767px) {
+  .accordion-mobile {
+    padding: 15px !important;
+    margin: 0 !important;
+  }
+  .custom-accordion-button::after {
+    left: -10px;
+  }
+}

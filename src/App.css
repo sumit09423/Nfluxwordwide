@@ -1,0 +1,56 @@
+@import url(./assets/Css/Navbar.module.css);
+@import url(./assets/Css/HomeView.css);
+@import url(./assets/Css/CardAreaModule.css);
+@import url(./assets/Css/Accordion.Module.css);
+
+/* Custom Font  */
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./assets/Font/Fontspring-DEMO-altivo-extralight.otf")
+    format("woff2");
+}
+
+/* As per Desingn i Guess Your Continer size is 1024  */
+.container {
+  width: 1024px !important;
+}
+
+.Mobile-home-body {
+  background-color: #141414;
+}
+/* Main CSS */
+
+* {
+  font-family: "MyCustomFont", sans-serif;
+}
+
+/* Custom class for letter spacing */
+.letter-spacing-tight {
+  letter-spacing: -0.5px;
+}
+
+.letter-spacing-normal {
+  letter-spacing: 0px;
+}
+
+.letter-spacing-loose {
+  letter-spacing: 2px;
+}
+
+/* mobile */
+.footer-stick-button {
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.0); /* Optional: dark overlay */
+}
+.footer-stick-button p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 5px;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100% !important;
+  }
+}

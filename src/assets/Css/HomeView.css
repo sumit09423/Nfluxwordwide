@@ -1,0 +1,192 @@
+/* Styles for the text overlay */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1; /* Ensures the text stays above the image */
+}
+
+.position-relative {
+  width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1rem;
+}
+
+.text-overlay h1 {
+  font-size: 2.5rem; /* Default size */
+}
+
+.text-overlay p {
+  font-size: 1.25rem; /* Default size */
+}
+
+.letter-spacing-tight {
+  letter-spacing: -0.05em; /* Adjust letter spacing */
+}
+
+.letter-spacing-loose {
+  letter-spacing: 0.1em; /* Adjust letter spacing */
+}
+
+.navigatin-border {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/* Second Section  */
+.card-section {
+  background-color: #141414;
+}
+
+.text-main-title {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.text-submain-title {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.text-area-div {
+  border-bottom: 1px solid #434343;
+  padding: 20px 0px;
+}
+
+.v-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+}
+
+.v-progress ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.v-progress-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* padding-left: 30px; */
+  margin-bottom: 20px;
+}
+
+.v-progress-item::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 36px;
+  width: 2px;
+  height: 100%;
+  background-color: #b9a38c;
+  z-index: 1;
+}
+
+.v-progress-item:first-child::before {
+  top: 85%; /* Start the line from the middle of the first item */
+  height: 90%;
+}
+
+.v-progress-item:last-child::before {
+  height: 0%; /* Stop the line halfway at the last item */
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  border: 3px solid #b9a38c;
+  color: #b9a38c;
+  font-weight: bold;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.text {
+  font-size: 14px;
+  color: #fff;
+  white-space: pre-line;
+}
+
+.btn-start {
+  padding: 8px 30px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #cf102d;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+
+/* Responsive styles for tablets (768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .text-overlay h1 {
+    font-size: 2rem !important; /* Smaller font size for tablets */
+    gap: 2rem !important; /* Adjust gap between words */
+  }
+
+  .text-overlay p {
+    font-size: 1rem; /* Smaller font size for tablets */
+  }
+  .navigatin-border {
+    border-bottom: unset;
+  }
+}
+
+/* Responsive styles for smaller screens (up to 767px) */
+@media (max-width: 767px) {
+  .text-overlay h1 {
+    font-size: 1.5rem !important; /* Smaller font size for mobile */
+    flex-direction: column; /* Stack the text vertically */
+    gap: 1rem;
+  }
+
+  .text-overlay p {
+    font-size: 0.875rem !important; /* Smaller font size for mobile */
+  }
+
+  .text-overlay {
+    padding: 0.5rem !important; /* Reduce padding for mobile */
+  }
+  .navigatin-border {
+    border-bottom: unset;
+  }
+  .text-main-title{
+    font-size: 15px;
+  }
+  .text-submain-title{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}

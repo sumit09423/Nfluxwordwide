@@ -1,0 +1,31 @@
+.bg-card {
+  background-color: #0c0c0c;
+  border-radius: 20px;
+  padding: 20px;
+  /* height: 200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bg-card-title {
+  color: #c0a991;
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0px 10px;
+}
+
+.bg-card-description {
+  font-weight: 500;
+  color: #7b7b7b;
+  margin: 0;
+  padding: 0px 10px;
+}
+
+.tearms-div p {
+  font-size: 12px;
+  color: #7b7b7b;
+  padding: 10px 0px;
+  margin: 0;
+}

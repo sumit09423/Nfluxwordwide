@@ -1,0 +1,97 @@
+/* Basic navbar styles */
+.navbar {
+  transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+  box-shadow: none;
+}
+
+/* When scrolled, add blur and darken background */
+.navbar.scrolled {
+  backdrop-filter: blur(10px); /* Add blur effect */
+}
+
+/* Optional: Customize navbar links */
+.navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #fff !important;
+}
+
+.navbar-nav .dropdown-toggle::after {
+  display: none;
+}
+
+.button-sign-in {
+  font-weight: 800;
+}
+
+.navbar-cust .list-group-item {
+  font-size: 14px !important;
+}
+
+/* Right-align navbar-toggler for mobile */
+.navbar-toggler {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+/* Background blur and full-width sidebar when navbar is open */
+.nav-open .collapse.show {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: dark overlay */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%; /* Make the blur full-width */
+  height: 100vh; /* Fill the entire viewport */
+  z-index: 1000; /* Ensure it's above other content */
+  overflow-y: auto; /* Enable scrolling if the content overflows */
+}
+
+/* Optional: styling for links to ensure white color */
+.nav-open .navbar-nav .nav-link {
+  color: white;
+}
+
+.close-btn {
+  background-color: transparent !important;
+  border: none;
+}
+
+.nav-open {
+  filter: none; /* Remove any existing blur */
+}
+
+.nav-open .navbar-collapse {
+  overflow: hidden; /* Prevent any content from spilling out */
+  height: 100vh; /* Ensure it takes full height when opened */
+  transition: height 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .list-group-item {
+    padding: 10px 20px;
+  }
+  .navbar-cust {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .list-group-item {
+    padding: 10px 20px;
+  }
+  .navbar-cust {
+    padding: 10px 20px;
+  }
+}
