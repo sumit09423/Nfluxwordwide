@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
+import jsonData from "../assets/Data.json"; // Importing the JSON data
 
 const MyAccordion = () => {
   const [accordionData, setAccordionData] = useState([]);
 
+  // Using the imported jsonData directly
   useEffect(() => {
-    fetch("/data.json")
-      .then((response) => response.json())
-      .then((data) => setAccordionData(data))
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+    setAccordionData(jsonData);
+  }, []); // No need to fetch, just set the data
 
   return (
     <div className="container py-5 px-5 accordion-mobile">
