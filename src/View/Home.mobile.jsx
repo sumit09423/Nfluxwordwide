@@ -59,7 +59,7 @@ const HomeMobile = () => {
           </div>
         </div>
 
-        <div className="bg-black">
+        <div className="bg-black pb-5">
           <AccordionData />
         </div>
 
