@@ -35,8 +35,8 @@ const ConfirmationPage = () => {
                   <p className="ticket-title m-0">MVP Subscription</p>
                 </div>
                 <ul className="ticket-container pb-3 p-0">
-                  {/* <li>
-                    <img src={annual} alt="" /> */}
+                  <li>
+                    {/* <img src={annual} alt="" /> */}
                     {formData.subscriptionType}
                   </li>
                   <li>
