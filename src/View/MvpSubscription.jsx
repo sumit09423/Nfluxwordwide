@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import stateCities from "../stateCities.json"; // Adjust the path as necessary
-import billingPlans from "../billingCycle.json"; // Adjust the path as necessary
+import stateCities from "../assets/stateCities.json"; // Adjust the path as necessary
+import billingPlans from "../assets/stateCities.json"; // Adjust the path as necessary
 import check from "../assets/Svg/check.svg";
 import card from "../assets/Svg/icon-6.svg";
 import { useNavigate } from "react-router-dom"; // Add this import

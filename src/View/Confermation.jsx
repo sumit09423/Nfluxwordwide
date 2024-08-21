@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import cardImg from "../assets/Images/Asset-1.png";
-// import annual from "../assets/Svg/icon-3.svg";
+import annual from "../assets/Svg/icon-3.svg";
 import cinema from "../assets/Svg/icon-8.svg";
 import cal from "../assets/Svg/icon-2.svg";
 import right from "../assets/Svg/icon-5.svg";
@@ -36,7 +36,7 @@ const ConfirmationPage = () => {
                 </div>
                 <ul className="ticket-container pb-3 p-0">
                   <li>
-                    {/* <img src={annual} alt="" /> */}
+                    <img src={annual} alt="" />
                     {formData.subscriptionType}
                   </li>
                   <li>
