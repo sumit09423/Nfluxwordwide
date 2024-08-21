@@ -2,6 +2,8 @@
 @import url(./assets/Css/HomeView.css);
 @import url(./assets/Css/CardAreaModule.css);
 @import url(./assets/Css/Accordion.Module.css);
+@import url(./assets/Css/MvpSubscription.module.css);
+@import url(./assets/Css/ConfirmationPage.module.css);
 
 /* Custom Font  */
 @font-face {
@@ -21,7 +23,11 @@
 /* Main CSS */
 
 * {
-  font-family: "MyCustomFont", sans-serif;
+  font-family: "MyCustomFont", "Times New Roman", serif;
+}
+
+body {
+  background: black;
 }
 
 /* Custom class for letter spacing */
@@ -40,7 +46,7 @@
 /* mobile */
 .footer-stick-button {
   backdrop-filter: blur(3px);
-  background-color: rgba(0, 0, 0, 0.0); /* Optional: dark overlay */
+  background-color: rgba(0, 0, 0, 0); /* Optional: dark overlay */
 }
 .footer-stick-button p {
   font-size: 12px;

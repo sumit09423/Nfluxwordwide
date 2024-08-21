@@ -9,7 +9,6 @@ import RightArrow from "../assets/Svg/RightArrow.svg";
 const HomeMobile = () => {
   return (
     <>
-      <NavigationBar />
       <div className="Mobile-home-body">
         <span className="d-flex align-items-center justify-content-center pt-5">
           <img src={AirDrpo} alt="" width={400} />

@@ -7,15 +7,13 @@ import RightArrow from "../assets/Svg/RightArrow.svg";
 import AccordionData from "../Components/Accordion";
 import MediaQuery from "react-responsive";
 import HomeMobile from "./Home.mobile";
+import { NavLink } from "react-router-dom";
 
 const HomeView = () => {
   return (
     <>
       <MediaQuery minWidth={1000}>
         <div>
-          {/* Header */}
-          <NavigationBar />
-
           {/* Main Content */}
           <main>
             <div className="position-relative">
@@ -89,9 +87,9 @@ const HomeView = () => {
                       </div>
                     </div>
                     <div className="mt-2 d-flex align-items-center justify-content-center gap-4">
-                      <a href="#" className="btn-start ">
+                      <NavLink to="/MvpSubscription" className="btn-start ">
                         Get Started <img src={RightArrow} alt="" width={20} />
-                      </a>
+                      </NavLink>
                       <a href="#" className="text-white">
                         Learn More
                       </a>
